@@ -1,0 +1,60 @@
+body{
+    background-image: url("timepiece.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+h1 {
+    text-align: right;
+    color: aliceblue;
+    letter-spacing:20px;
+    margin-top: 3%;
+    margin-right: 8vw;
+    padding: 5%;
+    font-size: 5rem;
+    font-weight: 250;
+    font-family: unset;
+}
+
+#watchContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;   
+    margin-left: 45vw;
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 100px;
+    padding: 5%; 
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+#displayTime{
+    font-size: 2rem;
+    color: rgb(214, 190, 52);
+    font-family: monospace;
+    width:90%;
+    padding: 2%;
+    background-color: black;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    word-wrap: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    
+}
+#buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    width: 90%;
+}
