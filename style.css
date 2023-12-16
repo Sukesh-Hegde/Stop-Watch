@@ -34,6 +34,14 @@ h1 {
     align-items: center;
 
 }
+.size{
+    font-size: 1rem;
+}
+
+
+    
+
+
 #displayTime{
     font-size: 2rem;
     color: rgb(214, 190, 52);
@@ -57,4 +65,25 @@ h1 {
     margin-top: 2%;
     justify-content: space-evenly;
     width: 90%;
+}
+
+@media screen and (max-width:900px) {
+    #watchContainer{
+        
+        margin: auto;
+        width: 90%;
+        
+    }
+    h1 {
+        letter-spacing:10px;
+        margin: auto;
+        text-align: center;
+    }
+    #displayTime{
+        font-size: 1.5rem;
+    }
+
+    .size{
+        font-size: 0.1rem;
+    }
 }
