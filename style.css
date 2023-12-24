@@ -2,8 +2,6 @@ body{
     background-image: url("timepiece.jpeg");
     background-size: cover;
     background-attachment: fixed;
-    
-
 }
 
 h1 {
@@ -38,10 +36,6 @@ h1 {
     font-size: 1rem;
 }
 
-
-    
-
-
 #displayTime{
     font-size: 2rem;
     color: rgb(214, 190, 52);
@@ -69,7 +63,7 @@ h1 {
 
 @media screen and (max-width:900px) {
     #watchContainer{
-        
+        margin-top: 5vh;
         margin: auto;
         width: 90%;
         

@@ -18,7 +18,6 @@ stopButton.addEventListener('click',()=>{
     clearInterval(interval);   
 });
 //reset button
-
 let resetButton = document.getElementById('resetBtn');
 resetButton.addEventListener('click',()=>{
     startBtn.innerHTML='START';
